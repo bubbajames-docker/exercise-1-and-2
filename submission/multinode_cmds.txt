@@ -1,0 +1,2 @@
+SKIP_WASM_BUILD= cargo run -- --base-path data/node1 --chain local --alice --port 30333 --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' --name validator-bubba-loves-alice --validator
+SKIP_WASM_BUILD= cargo run -- --base-path data/node2 --chain local --bob --port 30334 --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0' --name validator-bubba-hates-bob --validatorcar
